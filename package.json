@@ -1,18 +1,18 @@
 {
-  "homepage":"https://github.com/malarm/sammenomdansk",
+  "homepage": "https://github.com/malarm/sammenomdansk",
   "name": "sammenomdansk",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "autoprefixer": "^10.0.1",
+    "autoprefixer": "^9.8.6",
     "gh-pages": "^3.1.0",
     "next": "9.5.3",
     "react": "16.13.1",
